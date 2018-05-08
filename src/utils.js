@@ -2,7 +2,7 @@ import defaults from './options'
 
 function format (input, opt = defaults) {
   if (opt.allowBlank && input == '') {
-    return ''
+    return
   }
 
   if (typeof input === 'number') {
